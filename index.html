@@ -85,20 +85,7 @@
     <div class="form-card" id="signup">
       <h3>Send me the checklist</h3>
       <p class="small">Get the PDF and <b>Maker Ops Weekly</b>, our free newsletter. Unsubscribe any time.</p>
-      <!--
-        TODO(beehiiv): Replace this placeholder <form> with the beehiiv embed.
-        1. beehiiv dashboard → Grow → Subscribe Forms → create form → copy embed code.
-        2. Paste the <iframe>/<script> here, replacing the <form> element below.
-        3. In beehiiv, set the welcome email to deliver:
-           https://makerrunbook.com/assets/print-business-outage-checklist.pdf
-        4. Remove the inline placeholder script at the bottom of this page.
-      -->
-      <form class="signup" action="#" method="post" data-placeholder="beehiiv" novalidate>
-        <label for="email">Email address</label>
-        <input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.co.uk">
-        <button class="btn btn-primary" type="submit">Get the free checklist</button>
-        <p class="form-msg" role="status" aria-live="polite"></p>
-      </form>
+      <script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="4928a8d8-7d20-41a0-acba-425230b3a166"></script>
       <p class="fineprint">We'll only email you about The Maker Runbook. See the disclaimer below.</p>
     </div>
   </div>
@@ -124,7 +111,7 @@
         <p>Changes to platform rules and UK consumer law, each linked to the official source with a plain-English "does this affect me?" note.</p>
       </article>
     </div>
-    <p class="center"><a class="btn btn-primary" href="#signup">Subscribe free</a></p>
+    <p class="center"><a class="btn btn-primary" href="#signup">Subscribe free</a> <a class="btn btn-outline" href="https://makerrunbook.beehiiv.com">Read past issues</a></p>
   </div>
 </section>
 
@@ -258,21 +245,10 @@
       </ul>
     </div>
     <p class="disclaimer"><b>Disclaimer:</b> The Maker Runbook provides independent, general information for 3D-print sellers. It is not official guidance and is not legal, financial or tax advice. We are not affiliated with or endorsed by Bambu Lab, Etsy, Shopify, Stripe, PayPal or any other company mentioned. All trademarks belong to their owners. Platform features and policies change often, so always check the official source before you act.</p>
-    <p class="copy">© 2026 The Maker Runbook · makerrunbook.com</p>
+    <p class="copy">© 2026 The Maker Runbook · makerrunbook.com · <a href="mailto:hello@makerrunbook.com">hello@makerrunbook.com</a></p>
   </div>
 </footer>
 
-<!-- Placeholder behaviour until the beehiiv embed is added (TODO: remove with the beehiiv swap) -->
-<script>
-document.querySelectorAll('form[data-placeholder="beehiiv"]').forEach(function (f) {
-  f.addEventListener('submit', function (e) {
-    e.preventDefault();
-    var msg = f.querySelector('.form-msg');
-    var email = f.querySelector('input[type=email]');
-    if (!email.checkValidity()) { msg.textContent = 'Please enter a valid email address.'; email.focus(); return; }
-    msg.textContent = 'Thanks! Sign-up opens very soon. For now you can preview the checklist PDF above.';
-  });
-});
-</script>
+<script type="text/javascript" async src="https://subscribe-forms.beehiiv.com/attribution.js"></script>
 </body>
 </html>
