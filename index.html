@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Maker Runbook: outage-proof your 3D print business</title>
+<meta name="description" content="Runbooks, templates and a free weekly newsletter that help UK 3D-print sellers keep shipping when Bambu cloud, Etsy, Shopify or payments go down.">
+<link rel="canonical" href="https://makerrunbook.com/">
+<meta property="og:title" content="The Maker Runbook: outage-proof your 3D print business">
+<meta property="og:description" content="Free Print Business Outage Checklist, plus runbooks and sell kits for 3D-print sellers.">
+<meta property="og:url" content="https://makerrunbook.com/">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0f1b2d">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="The Maker Runbook, home">
+      <img src="assets/logo.svg" alt="" width="36" height="36">
+      <span>The Maker Runbook</span>
+    </a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="#checklist">Free checklist</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+        <li><a href="#kits">Kits</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">For 3D-print sellers in the UK</p>
+      <h1>Outage-proof your 3D print business.</h1>
+      <p class="lead">When Bambu cloud drops, an Etsy listing disappears or checkout breaks, you need a plan, not a panic. Get runbooks and templates written by a 3D-print seller who handles outages for a living.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#checklist">Get the free checklist</a>
+        <a class="btn btn-ghost" href="#kits">See the kits</a>
+      </div>
+      <ul class="ticks" aria-label="What you get">
+        <li>Practical steps, checked against official sources</li>
+        <li>Written for UK sellers</li>
+        <li>No jargon, no fluff</li>
+      </ul>
+    </div>
+    <div class="incident-card" aria-hidden="true">
+      <div class="ic-head"><span class="dot red"></span><span class="dot amber"></span><span class="dot green"></span><span class="ic-title">incident-log.txt</span></div>
+      <pre><span class="t">09:02</span> Cloud printing: <b class="warn">degraded</b>
+<span class="t">09:04</span> Checked status page ✓
+<span class="t">09:06</span> Sliced → microSD → print started
+<span class="t">09:10</span> 3 orders at risk → buyers messaged
+<span class="t">09:41</span> All orders on track <b class="ok">resolved</b></pre>
+    </div>
+  </div>
+</section>
+
+<!-- FREE CHECKLIST -->
+<section class="section" id="checklist" aria-labelledby="checklist-h">
+  <div class="wrap split">
+    <div>
+      <p class="eyebrow">Free download</p>
+      <h2 id="checklist-h">The Print Business Outage Checklist</h2>
+      <p>A 3-page field guide to work through top to bottom when something breaks:</p>
+      <ul class="list">
+        <li><b>The first 15 minutes</b> of any incident, with official status pages</li>
+        <li><b>Bambu cloud down:</b> printing from the SD card and LAN Only mode</li>
+        <li><b>Etsy listing removed or shop suspended:</b> the correct appeal routes</li>
+        <li><b>Checkout down or payments held,</b> printer failures and filament stockouts</li>
+        <li>UK delivery and cancellation basics, plus a ready-to-send delay message</li>
+        <li>A 10-minute single-point-of-failure audit</li>
+      </ul>
+      <p class="small"><a href="assets/print-business-outage-checklist.pdf">Preview the checklist (PDF, 3 pages)</a></p>
+    </div>
+
+    <div class="form-card" id="signup">
+      <h3>Send me the checklist</h3>
+      <p class="small">Get the PDF and <b>Maker Ops Weekly</b>, our free newsletter. Unsubscribe any time.</p>
+      <!--
+        TODO(beehiiv): Replace this placeholder <form> with the beehiiv embed.
+        1. beehiiv dashboard → Grow → Subscribe Forms → create form → copy embed code.
+        2. Paste the <iframe>/<script> here, replacing the <form> element below.
+        3. In beehiiv, set the welcome email to deliver:
+           https://makerrunbook.com/assets/print-business-outage-checklist.pdf
+        4. Remove the inline placeholder script at the bottom of this page.
+      -->
+      <form class="signup" action="#" method="post" data-placeholder="beehiiv" novalidate>
+        <label for="email">Email address</label>
+        <input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.co.uk">
+        <button class="btn btn-primary" type="submit">Get the free checklist</button>
+        <p class="form-msg" role="status" aria-live="polite"></p>
+      </form>
+      <p class="fineprint">We'll only email you about The Maker Runbook. See the disclaimer below.</p>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="section alt" id="newsletter" aria-labelledby="nl-h">
+  <div class="wrap">
+    <p class="eyebrow">Free, weekly</p>
+    <h2 id="nl-h">Maker Ops Weekly</h2>
+    <p class="lead narrow">A 5-minute read every Tuesday. Here's what broke this week for 3D-print sellers, and what to do about it.</p>
+    <div class="cards three">
+      <article class="card">
+        <h3>Incidents of the week</h3>
+        <p>Bambu, Etsy, Shopify and payment incidents, taken from official status histories. For each one: what happened, who's affected and what to do.</p>
+      </article>
+      <article class="card">
+        <h3>One fix this week</h3>
+        <p>A short runbook step you can finish in 10 minutes, such as a test print from the SD card or setting up a free uptime alert.</p>
+      </article>
+      <article class="card">
+        <h3>Policy watch</h3>
+        <p>Changes to platform rules and UK consumer law, each linked to the official source with a plain-English "does this affect me?" note.</p>
+      </article>
+    </div>
+    <p class="center"><a class="btn btn-primary" href="#signup">Subscribe free</a></p>
+  </div>
+</section>
+
+<!-- KITS -->
+<section class="section" id="kits" aria-labelledby="kits-h">
+  <div class="wrap">
+    <p class="eyebrow">Kits · coming soon</p>
+    <h2 id="kits-h">Runbooks and templates you'll use</h2>
+    <p class="lead narrow">One-off purchases with no subscription, in Google Docs and Sheets plus PDF. Free updates for 12 months.</p>
+
+    <div class="cards kits">
+      <article class="card kit">
+        <p class="tag">Kit A</p>
+        <h3>Resilient Maker Kit</h3>
+        <p class="price"><span>£19</span> Starter · <span>£39</span> Pro</p>
+        <ul class="list">
+          <li>Incident runbooks for Bambu cloud outages, Etsy removals and suspensions, checkout failures, payment holds, filament stockouts and printer failures</li>
+          <li>Customer delay email templates</li>
+          <li>Google Sheets order backlog tracker</li>
+          <li>Single-point-of-failure audit</li>
+          <li><b>Pro adds:</b> pricing calculator, backup and SOP templates, and a free monitoring setup guide</li>
+        </ul>
+        <!-- TODO(gumroad): replace href with the Gumroad product link for the Resilient Maker Kit (Starter and Pro variants) -->
+        <a class="btn btn-outline" href="#signup" data-gumroad="TODO-resilient-maker-kit">Coming soon · notify me</a>
+      </article>
+
+      <article class="card kit">
+        <p class="tag">Kit B</p>
+        <h3>Etsy Sell Kit for 3D sellers</h3>
+        <p class="price"><span>£19</span></p>
+        <ul class="list">
+          <li>Listing, title and FAQ templates</li>
+          <li>Photo shot list and prompt pack</li>
+          <li>Compliance checklist for Etsy's Creativity Standards, including own-design rules and the confusion over licensed STLs</li>
+          <li>Design provenance log and appeal templates</li>
+          <li>UK shop policy templates</li>
+        </ul>
+        <!-- TODO(gumroad): replace href with the Gumroad product link for the Etsy Sell Kit -->
+        <a class="btn btn-outline" href="#signup" data-gumroad="TODO-etsy-sell-kit">Coming soon · notify me</a>
+      </article>
+
+      <article class="card kit">
+        <p class="tag">Kit C</p>
+        <h3>Shopify Sell Kit for 3D sellers</h3>
+        <p class="price"><span>£24</span></p>
+        <ul class="list">
+          <li>Store setup checklist</li>
+          <li>Product page templates</li>
+          <li>UK shipping and returns policy templates</li>
+          <li>Notes on apps and connecting orders to your printers</li>
+          <li>Launch checklist and 90-day traffic plan</li>
+        </ul>
+        <!-- TODO(gumroad): replace href with the Gumroad product link for the Shopify Sell Kit -->
+        <a class="btn btn-outline" href="#signup" data-gumroad="TODO-shopify-sell-kit">Coming soon · notify me</a>
+      </article>
+    </div>
+
+    <article class="bundle">
+      <div>
+        <p class="tag light">Best value</p>
+        <h3>The Maker Business Bundle</h3>
+        <p>Resilient Maker Kit Pro + Etsy Sell Kit + Shopify Sell Kit. <b>£59</b> instead of £82 if bought separately.</p>
+      </div>
+      <!-- TODO(gumroad): replace href with the Gumroad bundle link -->
+      <a class="btn btn-primary" href="#signup" data-gumroad="TODO-bundle">Coming soon · notify me</a>
+    </article>
+    <p class="small center muted">Prices are in GBP and may change before launch.</p>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section alt" id="about" aria-labelledby="about-h">
+  <div class="wrap split about">
+    <img src="assets/logo.svg" alt="" width="120" height="120" class="about-logo">
+    <div>
+      <p class="eyebrow">About</p>
+      <h2 id="about-h">Made by a seller who handles outages for a living</h2>
+      <p>Hi, I'm Jonathan. I design, print and sell 3D-printed products in the UK, and I advise other makers. By day I'm a site reliability engineer (SRE). My job is keeping large systems running and making sure everyone knows what to do when they don't.</p>
+      <p>The Maker Runbook brings those habits to small print businesses: status checks, fallbacks, runbooks, clear customer messages and calm post-incident reviews. It's built for real shops, not enterprise IT.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq" aria-labelledby="faq-h">
+  <div class="wrap narrow-wrap">
+    <p class="eyebrow">FAQ</p>
+    <h2 id="faq-h">Questions</h2>
+    <details>
+      <summary>Is the checklist really free?</summary>
+      <p>Yes. Sign up to get it by email along with Maker Ops Weekly, or <a href="assets/print-business-outage-checklist.pdf">preview the PDF</a> directly.</p>
+    </details>
+    <details>
+      <summary>Is this official advice from Bambu Lab, Etsy or Shopify?</summary>
+      <p>No. The Maker Runbook is independent and not affiliated with or endorsed by any platform. We link to the official pages so you can check them, because platform rules change often.</p>
+    </details>
+    <details>
+      <summary>Do I need a Bambu Lab printer?</summary>
+      <p>No. The Bambu runbook is the most detailed one, but the triage steps, customer templates, backlog tracker and audit work with any printer.</p>
+    </details>
+    <details>
+      <summary>Can I sell prints of licensed STL files on Etsy?</summary>
+      <p>Etsy's Creativity Standards say that items made with a 3D printer must be based on the seller's own original design. A commercial licence for someone else's file doesn't change that. The Etsy Sell Kit explains this in detail. Check Etsy's current policy before listing.</p>
+    </details>
+    <details>
+      <summary>Is this legal advice?</summary>
+      <p>No. We summarise UK consumer rules, such as delivery times and cancellation rights, and link to the official sources. For your own situation, check GOV.UK or get professional advice.</p>
+    </details>
+    <details>
+      <summary>When will the kits launch?</summary>
+      <p>Soon. Press any "notify me" button to join the list. Subscribers will hear first and get a launch discount.</p>
+    </details>
+    <details>
+      <summary>What format are the kits in?</summary>
+      <p>PDFs, plus Google Docs and Google Sheets templates that you copy into your own account. Updates are free for 12 months.</p>
+    </details>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-top">
+      <a class="brand light" href="#top"><img src="assets/logo.svg" alt="" width="28" height="28"><span>The Maker Runbook</span></a>
+      <ul class="foot-links">
+        <li><a href="#checklist">Free checklist</a></li>
+        <li><a href="#newsletter">Maker Ops Weekly</a></li>
+        <li><a href="#kits">Kits</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </div>
+    <p class="disclaimer"><b>Disclaimer:</b> The Maker Runbook provides independent, general information for 3D-print sellers. It is not official guidance and is not legal, financial or tax advice. We are not affiliated with or endorsed by Bambu Lab, Etsy, Shopify, Stripe, PayPal or any other company mentioned. All trademarks belong to their owners. Platform features and policies change often, so always check the official source before you act.</p>
+    <p class="copy">© 2026 The Maker Runbook · makerrunbook.com</p>
+  </div>
+</footer>
+
+<!-- Placeholder behaviour until the beehiiv embed is added (TODO: remove with the beehiiv swap) -->
+<script>
+document.querySelectorAll('form[data-placeholder="beehiiv"]').forEach(function (f) {
+  f.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var msg = f.querySelector('.form-msg');
+    var email = f.querySelector('input[type=email]');
+    if (!email.checkValidity()) { msg.textContent = 'Please enter a valid email address.'; email.focus(); return; }
+    msg.textContent = 'Thanks! Sign-up opens very soon. For now you can preview the checklist PDF above.';
+  });
+});
+</script>
+</body>
+</html>
